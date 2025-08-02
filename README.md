@@ -22,7 +22,7 @@ Permite registrar, listar, filtrar e deletar despesas.
 
 - ✅ Criar despesa  
 - ✅ Listar todas as despesas  
-- ✅ Filtrar por data, categoria ou descrição  
+- ✅ Filtrar por data  
 - ✅ Remover despesa  
 - ✅ Validação automática dos dados  
 - ✅ Enum para categorias
