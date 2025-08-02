@@ -11,6 +11,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.antlr.v4.runtime.misc.NotNull;
 
+import java.time.LocalDate;
+
 @Entity
 @Data
 @NoArgsConstructor
@@ -23,7 +25,7 @@ public class Expense {
     private String description;
 
     private Double amount;
-    private String date;
+    private LocalDate date;
 
     @Enumerated(EnumType.STRING)
     private Category category;
